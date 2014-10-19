@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity" >
+    
+      <android.support.v4.view.ViewPager  
+        android:id="@+id/pager"  
+        android:layout_width="match_parent"  
+        android:layout_height="match_parent" />  
+
+      <ImageButton
+        android:id="@+id/imagebutton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@null"
+        android:src="@drawable/actionbar_indicator"/>
+     <ImageButton
+        android:id="@+id/imagebutton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imagebutton1"
+         android:layout_alignParentBottom="true"
+         android:background="@null"
+        android:src="@drawable/selector"/>
+     <ImageButton
+        android:id="@+id/imagebutton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imagebutton2"
+         android:layout_alignParentBottom="true"
+         android:background="@null"
+        android:src="@drawable/actionbar_indicator"/>
+     <ImageButton
+        android:id="@+id/imagebutton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imagebutton3"
+        android:background="@null"
+         android:layout_alignParentBottom="true"
+        android:src="@drawable/selector"/>
+      <ImageButton
+        android:id="@+id/imagebutton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imagebutton4"
+        android:background="@null"
+         android:layout_alignParentBottom="true"
+        android:src="@drawable/actionbar_indicator"/>
+      
+</RelativeLayout>
